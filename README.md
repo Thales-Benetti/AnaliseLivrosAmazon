@@ -19,3 +19,14 @@ O dataset apresenta 5 arquivo do tipo csv (valores separados por vírgula), dos 
 1. review_body (string) - Content of the review (Conteúdo da review)
 1. review_date (string) - date at which the product is reviewed (Data da review)
 ## Importando bibliotecas
+
+import numpy as np # Algebra Linear
+
+import pandas as pd # Leitor arquivo csv, processamento de dado
+
+import matplotlib.pyplot as plt # Análise gráfica
+
+import plotly.express as px # Análise gráfica
+
+
+ 
