@@ -28,5 +28,19 @@ import matplotlib.pyplot as plt # Análise gráfica
 
 import plotly.express as px # Análise gráfica
 
+##Dataset importando
+
+dataset1 = pd.read_csv(r"C:\Users\thale\Downloads\amazon_pc_Data.csv")
+
+dataset2 = pd.read_csv(r"C:\Users\thale\Downloads\amazon_jwellery_Data.csv")
+
+dataset3 = pd.read_csv(r"C:\Users\thale\Downloads\amazon_books_Data.csv")
+
+dataset4 = pd.read_csv(r"C:\Users\thale\Downloads\amazon_ebook_Data.csv" )
+
+dataset5 = pd.read_csv(r"C:\Users\thale\Downloads\amazon_grocery_Data.csv" )
+
+##Visualizando dataset e tratamento
+dataset1.head()
 
  
