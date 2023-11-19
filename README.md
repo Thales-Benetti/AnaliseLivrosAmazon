@@ -43,4 +43,6 @@ dataset5 = pd.read_csv(r"C:\Users\thale\Downloads\amazon_grocery_Data.csv" )
 ##Visualizando dataset e tratamento
 dataset1.head()
 
- 
+###Coluna Unamed não irá servir para nada, já que não existia no dataset, apenas apareceu como índice
+dataset1.drop(columns='Unnamed: 0', inplace = True)
+dataset1.info()
