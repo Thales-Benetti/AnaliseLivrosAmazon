@@ -40,9 +40,19 @@ dataset4 = pd.read_csv(r"C:\Users\thale\Downloads\amazon_ebook_Data.csv" )
 
 dataset5 = pd.read_csv(r"C:\Users\thale\Downloads\amazon_grocery_Data.csv" )
 
-##Visualizando dataset e tratamento
+
+## Visualizando dataset e tratamento
 dataset1.head()
 
-###Coluna Unamed não irá servir para nada, já que não existia no dataset, apenas apareceu como índice
+### Coluna Unamed não irá servir para nada, já que não existia no dataset, apenas apareceu como índice
 dataset1.drop(columns='Unnamed: 0', inplace = True)
 dataset1.info()
+
+# Observações
+-O projeto foi realizado utilizando jupyter notebook, assim como o visual studio code.
+*Aprendizados:
+-Integrar jupyter notebook, o visual studio code ao github, aprendendo a formar um readme e a trabalhar com branches.
+-Resolver problemas de importação de dados do tipo csv no pandas
+-Tratamento de dataset, utilizando a função info e head para ter uma amostra dos tipos de dados abordados, funcao drop para eliminar colunas que não serão uteis nesse caso, função nunique e counts para visualizar os valores de cada coluna, podendo ter colunas com apenas 1 valor ou com valores de "string" diferentes, precisando ser normalizados ex: "N" ou "Não", embora sejam a mesma coisa, precisam ser normalizados.
+
+
